@@ -17,7 +17,8 @@ function buscarCEP() {
             mostrarMensagem(`
                 <strong>Endereço:</strong> ${data.address} <br>
                 <strong>Bairro:</strong> ${data.district} <br>
-                <strong>Cidade:</strong> ${data.city} - ${data.state}
+                <strong>Cidade:</strong> ${data.city} <br>
+                <strong>Estado:</strong> ${data.state}
             `, "alert-success");
         })
         .catch(error => {
